@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 @app.route('/auth', methods=['GET'])
-def validateJWT():
+def validateJwtApi():
     return validateJwtController()
 
 
