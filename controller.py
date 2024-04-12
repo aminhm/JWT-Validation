@@ -2,7 +2,7 @@ from utils import *
 from flask import jsonify
 import jwt
 
-def validate_jwt_controller():
+def validate_jwt_controller() -> tuple:
     """
     Validate the JWT token provided in the request.
 
