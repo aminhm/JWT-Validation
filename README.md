@@ -58,4 +58,4 @@ http://localhost:5000/auth
 - Flask: Web framework for building the API.
 - PyJWT: Library for decoding and verifying JWTs.
 - PyJWT[crypto]: Library for decoding and verifying JWTs with cryptographic support.
-- Requests: Library for making HTTP requests to fetch PEM-encoded certificates.
+- Requests: Library for making HTTP requests.
