@@ -13,7 +13,19 @@ git clone https://github.com/aminhm/JWT-Validation.git
 2. Install the required dependencies:
 
 ```
-pip install flask PyJWT requests pyjwt[crypto]
+pip install flask PyJWT requests
+```
+
+3. For MacOS also:
+
+```
+pip install cryptography
+```
+
+4. For Windows also:
+
+```
+pip install pyjwt[crypto]
 ```
 
 ## Usage
@@ -57,5 +69,4 @@ http://localhost:5000/auth
 
 - Flask: Web framework for building the API.
 - PyJWT: Library for decoding and verifying JWTs.
-- PyJWT[crypto]: Library for decoding and verifying JWTs with cryptographic support.
 - Requests: Library for making HTTP requests.
