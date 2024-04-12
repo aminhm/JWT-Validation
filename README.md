@@ -8,14 +8,12 @@ This project implements a simple API endpoint for validating JSON Web Tokens (JW
 
 ```
 git clone https://github.com/aminhm/JWT-Validation.git
-
 ```
 
 2. Install the required dependencies:
 
 ```
 pip install flask PyJWT requests pyjwt[crypto]
-
 ```
 
 ## Usage
@@ -24,7 +22,6 @@ pip install flask PyJWT requests pyjwt[crypto]
 
 ```
 python api.py
-
 ```
 
 2. Make a GET request to the `/auth` endpoint with the JWT included in the Authorization header.
@@ -36,7 +33,6 @@ GET http://localhost:5000/auth HTTP/1.1
 Host: localhost:5000
 Accept: application/json
 Authorization: Bearer <your_jwt_token>
-
 ```
 
 3. Example response:
@@ -55,7 +51,6 @@ The endpoint URL for validating JWTs is:
 
 ```
 http://localhost:5000/auth
-
 ```
 
 ## Dependencies
